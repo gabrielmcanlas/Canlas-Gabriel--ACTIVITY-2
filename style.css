@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+#mywebsite{
+    background-color:darkturquoise
+    font-family: Arial, Helvetica, san-serif;
+}  
+    #landing{
+        padding: 180px;
+        text-align: center;
+        background-image: url(img/landing-img.jpg);
+        background-size: cover;
+        background-position: : center;
+
+    }
+#landing h1{
+    font-size: xx-large;
+    color: white;
+    text-shadow: cadetblue;
+}
+#landing p{
+    font-size: medium;
+    color: white;
+    text-shadow: cadetblue;
+
+}
+#blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    }
+
+#blog h2{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200%;
+    font-size: 200%;
+    color: rgb(1, 2, 2);
+
+}
+#blog div{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc(20% - 15px);
+    background-color: white;
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #BDC3C7;
+    border: none;
+    position: relative;
+    overflow: hidden;
+
+}
+#blog div:nth-of-type(3){
+    background-color: black;
+    color: white;
+    }
+
+#blog div div {
+    flex: 1;
+    padding: 20px;
+    }
+
+#blog div img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#blog div p {
+    margin-bottom: 10px;
+    font-size: medium;
+    text-align: left;
+
+}
+#blog div a {
+    text-align: left;
+    color: #850cd0;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: medium;
+    }
+    #services {
+        padding: 90px 0;
+        margin-top: 160px;
+        background-color: #EAECEE;
+        }
+        #services h2 {
+            font-size: 250%;
+            text-align: center;
+            color: #2C3E50;
+            }
+            
+            #services ul {
+            list-style: none;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            }
+            
+            #services li {
+            font-size: medium;
+            width: 150px;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            background-color: #ffffff;
+            }
+            
+            #services li:hover {
+            background-color: #E74C3C;
+            color: #ECF0F1;
+            }
